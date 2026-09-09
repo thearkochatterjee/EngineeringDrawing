@@ -1,0 +1,8 @@
+# Install only in a CUDA-enabled training environment. The current Ollama GGUF
+# model cannot be fine-tuned directly; use an original Transformers checkpoint.
+accelerate>=1.0
+bitsandbytes>=0.43
+datasets>=3.0
+peft>=0.13
+transformers>=4.46
+rich>=13

@@ -1,0 +1,46 @@
+[project]
+name = "engineering-drawing-copilot"
+version = "0.1.0"
+description = "Local engineering-drawing analysis, primitive detection, grounded review, and benchmarking."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+authors = [{ name = "Engineering Drawing Copilot contributors" }]
+dependencies = [
+    "numpy>=1.26",
+    "Pillow>=10",
+    "rich>=13",
+    "scipy>=1.11",
+    "zarr>=3",
+]
+
+[project.optional-dependencies]
+# Install this profile for primitive detector training, prediction, and evaluation.
+vision = ["torch>=2.2"]
+# Install this profile for the single-machine Streamlit workbench.
+workbench = ["streamlit>=1.38"]
+# Install this profile only when downloading raw ParaCAD data from ModelScope.
+data = ["modelscope>=1.13.2"]
+# Install this profile only in an appropriate CUDA environment for QLoRA training.
+copilot-training = [
+    "accelerate>=1.0",
+    "bitsandbytes>=0.43",
+    "datasets>=3.0",
+    "peft>=0.13",
+    "transformers>=4.46",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.8",
+]
+
+[tool.uv]
+# This repository is a collection of local command-line applications rather
+# than an importable package. uv still manages its virtual environment and lock.
+package = false
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+

@@ -1,0 +1,608 @@
+{
+  "match_threshold": 0.03,
+  "summary": {
+    "ground_truth_primitives": 16,
+    "predicted_primitives": 25,
+    "matched": 10,
+    "missed_ground_truth": 6,
+    "extra_predictions": 15
+  },
+  "comparisons": [
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line0",
+        "type": "line",
+        "geometry": {
+          "x1": 0.0,
+          "y1": 0.12033898305084746,
+          "x2": 0.847457627118644,
+          "y2": 0.12033898305084746
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 67,
+        "type": "line",
+        "score": 0.9804085493087769,
+        "geometry": {
+          "x1": 1.608490407534191e-07,
+          "y1": 0.1120033711194992,
+          "x2": 0.8485565185546875,
+          "y2": 0.11581970006227493
+        }
+      },
+      "geometry_mae": 0.003488
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line1",
+        "type": "line",
+        "geometry": {
+          "x1": 0.0,
+          "y1": 0.009322033898305085,
+          "x2": 0.847457627118644,
+          "y2": 0.009322033898305085
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 55,
+        "type": "line",
+        "score": 0.97845059633255,
+        "geometry": {
+          "x1": 9.613624740723026e-08,
+          "y1": 1.33102985273581e-05,
+          "x2": 0.8493599891662598,
+          "y2": 7.270838250406086e-05
+        }
+      },
+      "geometry_mae": 0.005115
+    },
+    {
+      "status": "missed_ground_truth",
+      "ground_truth": {
+        "id": "Line2",
+        "type": "line",
+        "geometry": {
+          "x1": 0.38305084745762713,
+          "y1": 0.04915254237288136,
+          "x2": 0.46440677966101696,
+          "y2": 0.04915254237288136
+        },
+        "is_valid": false
+      },
+      "prediction": null,
+      "geometry_mae": null
+    },
+    {
+      "status": "missed_ground_truth",
+      "ground_truth": {
+        "id": "Line3",
+        "type": "line",
+        "geometry": {
+          "x1": 0.6576271186440678,
+          "y1": 0.0,
+          "x2": 0.6576271186440678,
+          "y2": 0.1288135593220339
+        },
+        "is_valid": false
+      },
+      "prediction": null,
+      "geometry_mae": null
+    },
+    {
+      "status": "missed_ground_truth",
+      "ground_truth": {
+        "id": "Line4",
+        "type": "line",
+        "geometry": {
+          "x1": 0.423728813559322,
+          "y1": 0.12627118644067797,
+          "x2": 0.423728813559322,
+          "y2": 0.003389830508474576
+        },
+        "is_valid": false
+      },
+      "prediction": null,
+      "geometry_mae": null
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line5",
+        "type": "line",
+        "geometry": {
+          "x1": 0.06016949152542373,
+          "y1": 0.009322033898305085,
+          "x2": 0.06016949152542373,
+          "y2": 0.12033898305084746
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 54,
+        "type": "line",
+        "score": 0.9818593859672546,
+        "geometry": {
+          "x1": 0.06080169975757599,
+          "y1": 4.6719790702809405e-07,
+          "x2": 0.06010276824235916,
+          "y2": 0.10866013914346695
+        }
+      },
+      "geometry_mae": 0.005425
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line6",
+        "type": "line",
+        "geometry": {
+          "x1": 0.7788135593220339,
+          "y1": 0.0,
+          "x2": 0.7788135593220339,
+          "y2": 0.1288135593220339
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 121,
+        "type": "line",
+        "score": 0.9892370104789734,
+        "geometry": {
+          "x1": 0.7726924419403076,
+          "y1": 5.838041374772729e-07,
+          "x2": 0.7748486995697021,
+          "y2": 0.1162073090672493
+        }
+      },
+      "geometry_mae": 0.005673
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line7",
+        "type": "line",
+        "geometry": {
+          "x1": 0.38305084745762713,
+          "y1": 0.009322033898305085,
+          "x2": 0.38305084745762713,
+          "y2": 0.04915254237288136
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 114,
+        "type": "line",
+        "score": 0.9940909743309021,
+        "geometry": {
+          "x1": 0.3890019655227661,
+          "y1": 2.2280014491116162e-06,
+          "x2": 0.38723519444465637,
+          "y2": 0.09105350822210312
+        }
+      },
+      "geometry_mae": 0.015339
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line8",
+        "type": "line",
+        "geometry": {
+          "x1": 0.18983050847457628,
+          "y1": 0.0,
+          "x2": 0.18983050847457628,
+          "y2": 0.1288135593220339
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 12,
+        "type": "line",
+        "score": 0.9867738485336304,
+        "geometry": {
+          "x1": 0.18719510734081268,
+          "y1": 2.084734887830564e-06,
+          "x2": 0.1862502098083496,
+          "y2": 0.11271944642066956
+        }
+      },
+      "geometry_mae": 0.005578
+    },
+    {
+      "status": "missed_ground_truth",
+      "ground_truth": {
+        "id": "Line9",
+        "type": "line",
+        "geometry": {
+          "x1": 0.06864406779661017,
+          "y1": 0.0,
+          "x2": 0.06864406779661017,
+          "y2": 0.1288135593220339
+        },
+        "is_valid": false
+      },
+      "prediction": null,
+      "geometry_mae": null
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line10",
+        "type": "line",
+        "geometry": {
+          "x1": 0.4025423728813559,
+          "y1": 0.04915254237288136,
+          "x2": 0.4025423728813559,
+          "y2": 0.12033898305084746
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 1,
+        "type": "line",
+        "score": 0.9938350915908813,
+        "geometry": {
+          "x1": 0.41028478741645813,
+          "y1": 0.09611762315034866,
+          "x2": 0.42901721596717834,
+          "y2": 0.10300587117671967
+        }
+      },
+      "geometry_mae": 0.024629
+    },
+    {
+      "status": "missed_ground_truth",
+      "ground_truth": {
+        "id": "Line11",
+        "type": "line",
+        "geometry": {
+          "x1": 0.7872881355932203,
+          "y1": 0.12033898305084746,
+          "x2": 0.7872881355932203,
+          "y2": 0.009322033898305085
+        },
+        "is_valid": false
+      },
+      "prediction": null,
+      "geometry_mae": null
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line12",
+        "type": "line",
+        "geometry": {
+          "x1": 0.46440677966101696,
+          "y1": 0.009322033898305085,
+          "x2": 0.46440677966101696,
+          "y2": 0.04915254237288136
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 47,
+        "type": "line",
+        "score": 0.9833412766456604,
+        "geometry": {
+          "x1": 0.4684501588344574,
+          "y1": 4.935176548315212e-05,
+          "x2": 0.4683378040790558,
+          "y2": 0.10316193848848343
+        }
+      },
+      "geometry_mae": 0.017814
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line13",
+        "type": "line",
+        "geometry": {
+          "x1": 0.0,
+          "y1": 0.12033898305084746,
+          "x2": 0.0,
+          "y2": 0.009322033898305085
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 127,
+        "type": "line",
+        "score": 0.9332616329193115,
+        "geometry": {
+          "x1": 5.604995021712966e-05,
+          "y1": 0.10952678322792053,
+          "x2": 0.0001297053968301043,
+          "y2": 1.891351530503016e-06
+        }
+      },
+      "geometry_mae": 0.00508
+    },
+    {
+      "status": "matched",
+      "ground_truth": {
+        "id": "Line14",
+        "type": "line",
+        "geometry": {
+          "x1": 0.847457627118644,
+          "y1": 0.009322033898305085,
+          "x2": 0.847457627118644,
+          "y2": 0.12033898305084746
+        },
+        "is_valid": false
+      },
+      "prediction": {
+        "query_index": 31,
+        "type": "line",
+        "score": 0.9815562963485718,
+        "geometry": {
+          "x1": 0.8500341773033142,
+          "y1": 3.0550207156920806e-05,
+          "x2": 0.8496828675270081,
+          "y2": 0.11547815054655075
+        }
+      },
+      "geometry_mae": 0.004739
+    },
+    {
+      "status": "missed_ground_truth",
+      "ground_truth": {
+        "id": "Line15",
+        "type": "line",
+        "geometry": {
+          "x1": 0.4449152542372881,
+          "y1": 0.12033898305084746,
+          "x2": 0.4449152542372881,
+          "y2": 0.04915254237288136
+        },
+        "is_valid": false
+      },
+      "prediction": null,
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 87,
+        "type": "line",
+        "score": 0.9962906837463379,
+        "geometry": {
+          "x1": 0.3951832950115204,
+          "y1": 0.00047694507520645857,
+          "x2": 0.4009517431259155,
+          "y2": 0.01260728295892477
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 98,
+        "type": "line",
+        "score": 0.9960088729858398,
+        "geometry": {
+          "x1": 0.4181215167045593,
+          "y1": 0.021354233846068382,
+          "x2": 0.43227672576904297,
+          "y2": 0.013870677910745144
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 46,
+        "type": "line",
+        "score": 0.9884119629859924,
+        "geometry": {
+          "x1": 0.7684584259986877,
+          "y1": 0.0017261189641430974,
+          "x2": 0.7639018893241882,
+          "y2": 0.10449427366256714
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 34,
+        "type": "line",
+        "score": 0.9818929433822632,
+        "geometry": {
+          "x1": 1.570275162521284e-05,
+          "y1": 4.670256203098688e-06,
+          "x2": 5.623009565169923e-05,
+          "y2": 0.10760445147752762
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 86,
+        "type": "line",
+        "score": 0.9785939455032349,
+        "geometry": {
+          "x1": 0.7882820963859558,
+          "y1": 0.0016417235601693392,
+          "x2": 0.7905223965644836,
+          "y2": 0.0007383677293546498
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 61,
+        "type": "line",
+        "score": 0.9488686323165894,
+        "geometry": {
+          "x1": 0.07106376439332962,
+          "y1": 0.11260424554347992,
+          "x2": 0.07082802057266235,
+          "y2": 2.457414609580155e-07
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 26,
+        "type": "line",
+        "score": 0.9478051066398621,
+        "geometry": {
+          "x1": 0.6442567110061646,
+          "y1": 0.11169663071632385,
+          "x2": 0.6459422707557678,
+          "y2": 2.2683154554670182e-07
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 94,
+        "type": "line",
+        "score": 0.9404900670051575,
+        "geometry": {
+          "x1": 0.8484877347946167,
+          "y1": 0.11338692903518677,
+          "x2": 0.8493661880493164,
+          "y2": 3.2894013202167116e-06
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 52,
+        "type": "line",
+        "score": 0.9313524961471558,
+        "geometry": {
+          "x1": 0.1942700296640396,
+          "y1": 0.11740712821483612,
+          "x2": 0.199478879570961,
+          "y2": 5.575366230914369e-06
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 108,
+        "type": "line",
+        "score": 0.908054530620575,
+        "geometry": {
+          "x1": 0.0606299452483654,
+          "y1": 0.10803832113742828,
+          "x2": 0.05823295935988426,
+          "y2": 0.10911870747804642
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 35,
+        "type": "line",
+        "score": 0.8941689729690552,
+        "geometry": {
+          "x1": 0.06896381825208664,
+          "y1": 0.00022376493143383414,
+          "x2": 0.07037698477506638,
+          "y2": 0.0001769994560163468
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 10,
+        "type": "line",
+        "score": 0.8638859987258911,
+        "geometry": {
+          "x1": 0.8001968860626221,
+          "y1": 0.11339264363050461,
+          "x2": 0.8024619221687317,
+          "y2": 0.1170625165104866
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 20,
+        "type": "line",
+        "score": 0.7996160387992859,
+        "geometry": {
+          "x1": 0.44167816638946533,
+          "y1": 0.016683373600244522,
+          "x2": 0.44723451137542725,
+          "y2": 0.11210054904222488
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 115,
+        "type": "line",
+        "score": 0.7433977127075195,
+        "geometry": {
+          "x1": 0.8483020663261414,
+          "y1": 5.346379111870192e-05,
+          "x2": 5.192135290599253e-07,
+          "y2": 2.781632019832614e-06
+        }
+      },
+      "geometry_mae": null
+    },
+    {
+      "status": "extra_prediction",
+      "ground_truth": null,
+      "prediction": {
+        "query_index": 9,
+        "type": "line",
+        "score": 0.7403745651245117,
+        "geometry": {
+          "x1": 0.8478805422782898,
+          "y1": 0.1044578105211258,
+          "x2": 3.961507900385186e-06,
+          "y2": 0.10895264148712158
+        }
+      },
+      "geometry_mae": null
+    }
+  ]
+}
